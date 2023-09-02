@@ -1,0 +1,328 @@
+.nav{
+    background-color: white;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow:0px 10px 5px 0px orange;
+}
+.nav_top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logo{
+    float:left;
+    width: 60%;
+}
+.logo img{
+    padding: 10px;
+    
+}
+.nav_side{
+    float: right;
+    width: 40%;
+    margin-top: 20px;
+}
+.nav_side a{
+    text-decoration: none;
+    margin-right: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+.nav_side a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.main{
+    background-image: url('https://www.english.com/blog/wp-content/uploads/2019/09/build-confidence.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+}
+.main .main_content{
+    padding-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.main .main_content h2{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+    text-align: center;  
+}
+.main .main_content span{
+    font-size: x-large;
+    color: white;
+    opacity: 0.9;
+    font-weight: bold;
+    line-height: normal;
+}
+.main .main_content .btn{
+    text-decoration: none;
+}
+.main .main_content .btn a{
+    font-size: medium;
+    margin: 450px;
+    padding: 3px 20px;
+    color: whitesmoke;
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px white;
+    border-radius: 10px;
+    text-align: center;
+}
+.main .main_content .btn a:hover{
+    font-size: large;
+    background-color: olivedrab;
+    border: none;
+    border-bottom: 4px orange;
+    transition: 0.5s;
+}
+.product h2{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+.product .products_container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.product .products_container .item{
+    width: 33.33%;
+    height: auto;
+    margin: 10px;
+}
+.product .product_container .item:hover{
+    box-shadow: 0px 10px 5px 0px black;
+}
+.product .products_container .item .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.product .products_container .item .item_img img{
+    width: 100%;
+    height: 250px;
+}
+.product .products_container .item .item_content{
+    text-align: center;
+}
+.product .products_container .item .item_content a{
+    font-size: small;
+    margin: 50px;
+    padding: 5px 10px;
+    color: whitesmoke;
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px white;
+    border-radius: 15px;
+    text-align: center;
+}
+.product .products_container .item .item_content a:hover{
+    font-size: large;
+    background-color: olivedrab;
+    border: none;
+    border-bottom: 4px orange;
+    transition: 0.5s;
+}
+.product .product_btn{
+    text-align: center;
+    margin-top: 10px;
+}
+.product .product_btn a{
+    font-size: small;
+    margin: 50px;
+    padding: 5px 10px;
+    color: whitesmoke;
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px white;
+    border-radius: 15px;
+    text-align: center;
+}
+.product .product_btn a:hover{
+    font-size: large;
+    background-color: olivedrab;
+    border: none;
+    border-bottom: 4px orange;
+    transition: 0.5s;
+}
+.keypoints h2{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: black;
+    text-align: center;  
+}
+.keypoints .key_container .key_content ul{
+    float: left;
+    border-left: 10px orange;
+    padding: 10px;
+    font-size: 34px;
+    margin: 30px;
+    text-align: left;
+    box-shadow: 0px 3px 65px 0px orange;
+    border-left: orange;
+    list-style: none;
+}
+.keypoints .key_container .key_img {
+    float: right;
+    width: 40%;
+    height: fit-content;
+}
+.keypoints .key_container .key_img img{
+    width: 80%;
+}
+.testi{
+    padding: 10px;
+}
+.testi h2{
+    color:black;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    text-indent: 30px;
+    margin-left: 50px;
+}
+.testi .testi_container{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+} 
+.testi .testi_container .item{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+}
+.testi .testi_container .item .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.testi .testi_container .item .item_img img{
+    width: 20%;
+    height: 250px;
+    border-radius: 100%;
+}
+.our_team h2{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.our_team .video_container{
+    display: flex;
+}
+.our_team .video_container .team_video{
+    padding: 50px;
+    width: 50%;
+}
+.our_team .video_container .team_video video{
+    width: 100%;
+}
+.our_team .video_container .team_content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    margin-top: 50px;
+}
+.form h2{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.form{
+    background-image: url('greeting.jpg');
+    background-size: cover;
+    width: 100%;
+}
+.form .form_container{
+    text-align: center;
+}
+.form .form_container form{
+    padding: 100px;
+}
+.form .form_container form input{
+    text-align: center;
+    width: 30%;
+    margin: 10px;
+    padding: 15px;
+}
+.form .form_container form textarea{
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+footer{
+    background-color: gray;
+    padding: 50px;
+}
+footer .Pages{
+    text-align: center;
+}
+footer .Pages h2{
+    padding: 10px;
+    color: black;
+}
+footer .Pages a{
+    color: brown;
+    margin: 10px;
+}
+footer .Pages a:hover{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+footer .social{
+    text-align: center;
+}
+footer .social h2{
+    padding: 10px;
+    color: black;
+}
+footer .social a{
+    color: brown;
+    margin: 10px;
+}
+footer .social a:hover{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+footer .doc{
+    text-align: center;
+}
+footer .doc h2{
+    padding: 10px;
+    color: black;
+}
+footer .doc a{
+    color: brown;
+    margin: 10px;
+}
+footer .doc a:hover{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+
+
+
+
